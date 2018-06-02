@@ -9,7 +9,7 @@ $data = json_decode($file, true);
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>ДЗ5</title>
+  <title>hw5</title>
 </head>
 <body>
 
