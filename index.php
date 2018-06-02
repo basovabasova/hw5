@@ -5,7 +5,6 @@ $data = json_decode($file, true);
 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
