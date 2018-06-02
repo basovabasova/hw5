@@ -3,8 +3,6 @@
 $file = file_get_contents(__DIR__. '/lesson.phonebook.json');
 $data = json_decode($file, true);
 
-
-
 ?>
 
 <!DOCTYPE html>
