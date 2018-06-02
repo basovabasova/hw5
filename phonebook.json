@@ -1,0 +1,25 @@
+[{
+  "id": 1,
+  "firstname": "Анна",
+  "lastname": "Аннина",
+  "address": "г.Москва, ул. Ленина,1",
+  "phonenumber": "495 123-1234"
+}, {
+  "id": 2,
+  "firstname": "Татьяна",
+  "lastname": "Татьянина",
+  "address": "г.Москва, ул. К.Маркса,2",
+  "phonenumber": "495 321-1234"
+}, {
+  "id": 3,
+  "firstname": "Ольга",
+  "lastname": "Ольгина",
+  "address": "г.Москва, ул. Правды,3",
+  "phonenumber": "495 321-4321"
+}, {
+  "id": 4,
+  "firstname": "Ирина",
+  "lastname": "Иринина",
+  "address": "г.Москва, ул. Революции,4",
+  "phonenumber": "495 123-4321"
+}]
