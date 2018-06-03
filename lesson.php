@@ -21,16 +21,15 @@ $data = json_decode($file, true);
       <td>Адрес</td>
       <td>Телефон</td>
     </tr>
-    <?php foreach ($data as $key => $phonebook) {?>
+    <?php foreach ($data as $phonebook) {?>
       <tr>
         <td><?php echo $phonebook['id']; ?></td>
         <td><?php echo $phonebook['firstname']; ?></td>
         <td><?php echo $phonebook['lastname']; ?></td>
         <td><?php echo $phonebook['address']['city'] . ' ' . $phonebook['address']['street']; ?></td>
-        <td><?php foreach ($phonebook['phonenumber'] as $value) {
-          echo $value . '<br>'; }?></td>
+        <td><?php echo implode(', ', $phonebook['phonenumber']); ?></td>
       </tr>  
-    <?php } ?>
+    <?php }?>
   </table>
 
 </body>

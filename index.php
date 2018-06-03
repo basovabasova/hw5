@@ -21,7 +21,7 @@ $data = json_decode($file, true);
       <td>Адрес</td>
       <td>Телефон</td>
     </tr>
-    <?php foreach ($data as $key => $phonebook) {?>
+    <?php foreach ($data as $phonebook) {?>
       <tr>
         <td><?php echo $phonebook['id']; ?></td>
         <td><?php echo $phonebook['firstname']; ?></td>
@@ -29,7 +29,7 @@ $data = json_decode($file, true);
         <td><?php echo $phonebook['address']; ?></td>
         <td><?php echo $phonebook['phonenumber']; ?></td>
       </tr>  
-    <?php } ?>
+    <?php }?>
   </table>
 
 </body>
